@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавить сотрудника</title>
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/worker-add.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="workers.html">Список сотрудников</a></li>
+                <li><a href="worker-best.html">Сотрудник месяца</a></li>
+                <li><a href="worker-add.html">Добавить сотрудника</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <form action="#" method="post">
+                <label for="name">ФИО: </label>
+                <input required type="text" name="name" id="name" placeholder="Фамилия Имя Отчество">
+
+                <label for="position">Должность: </label>
+                <input required type="text" name="position" id="position" placeholder="Стажер">
+
+                <label for="address">Домашний адрес: </label>
+                <input required type="text" name="address" id="address" placeholder="г. Уфа, ул. Ленина, д. 5">
+
+                <label for="tel">Телефон: </label>
+                <input required type="tel" name="tel" id="tel" placeholder="8(123)456-78-90">
+
+                <label for="email">Email</label>
+                <input required type="email" name="email" id="email" placeholder="test-tt@mail.ru">
+
+                <button type="submit">Добавить сотрудника</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
